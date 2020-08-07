@@ -1,0 +1,163 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.FormContainer {
+	
+	padding:2rem;
+	display: flex;
+	flex-direction: column;
+/*	justify-content: space-between;*/
+	width:80%;
+    background: #44351b;
+	margin: 5rem auto;
+	border:1px solid #efefef;
+    margin-bottom:2rem;
+    
+
+}
+
+
+.next{
+    align-self: center;
+    outline:none;
+    border:none;
+    padding :.4rem 1rem;
+    font-size: 1.6rem;
+    font-family: inherit;
+    color: #123208;
+    background-color:     #eecc59;
+    cursor : pointer;
+}
+@media(max-width: 1057px     ){
+    .FormContainer{
+        width:95%;
+    }
+}
+
+
+
+@media(max-width: 56.25em ){
+    .FormContainer{
+        width:95%;
+    }
+}
+
+
+
+
+@media(max-width:900px){
+    .FormContainer{
+        width:50%;
+    }
+}
+
+
+@media(max-width: 600px){
+    .FormContainer{
+        width:70%;
+    }
+}
+
+
+
+@media(max-width: 400px){
+    .FormContainer{
+        width:90%;
+    }
+}
+
+.title{
+	font-size: 2rem;
+	font-weight: lighter;
+	padding-bottom: 1rem;
+	border-bottom : 1px solid #efefef;
+	margin-bottom: 1.4rem;
+    color: #7eff08;
+    text-transform: uppercase;
+}
+
+.form {
+	display: flex;
+}
+
+
+@media(max-width:900px){
+    .form{
+        flex-direction:column;
+        justify-content: space-around
+    }
+}
+
+
+label{
+	font-size: 1.6rem;
+	margin-right: .6rem;
+}
+
+.inputGroup {
+	margin-right: 1.5rem;
+	display: flex;
+	/*flex-direction: column;*/
+	align-items: center;
+	/*flex-grow: 1;*/
+	flex-basis: 13%;
+
+}
+
+.input {
+	padding: .7rem 1rem;
+	font-size: 1.6rem;
+	color: inherit;
+	font-family: inherit;
+	width:100%;
+	transition: all .3s;
+
+}
+
+.input:focus{
+	border : 2px solid black;
+}
+	
+.inputGroupTitle{
+	margin-right: 1.5rem;
+	display: flex;
+	/*flex-direction: column;*/
+	align-items: center;
+	flex-basis: 25%;
+}
+
+
+
+.search{
+	align-self: stretch;
+	outline:none;
+	border:none;
+	padding :.7rem 1rem;
+	font-size: 1.6rem;
+	font-family: inherit;
+	color: white;
+	background-color: #207EFF;
+    cursor: pointer;
+}
+
+@media(max-width:900px){
+    .search{
+        margin-right:2rem;
+    }
+}
+
+
+.reset{
+	align-self: stretch;
+	outline:none;
+	border:none;
+	padding :.7rem 1rem;
+	font-size: 1.6rem;
+	font-family: inherit;
+	color: #777;
+	background-color: #E1E1E1;
+    cursor: pointer;
+}

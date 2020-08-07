@@ -1,0 +1,31 @@
+.heading{
+    color: #fffe00;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 1rem 0.5rem rgba(0,0,0,.2);
+/*    background: url("./image.jpg");*/
+/*    display: inline-block;*/
+/*
+    background-size: cover;
+    background-clip: text;
+    background-position:top;
+*/
+    font-size : 4rem;
+    font-weight:700;
+    margin: 0 auto;
+/*    transform: scale(1.6)*/
+ 
+
+}
+
+
+
+@keyframes animate{
+    0%{
+        color : #a0dc00
+    }
+    
+    100%{
+        color : darkgreen;
+    }
+}

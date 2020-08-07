@@ -1,0 +1,91 @@
+.search{
+    cursor : pointer;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap : 2rem;
+/*    height:20rem;*/
+    width: 80%;
+    margin : 2rem auto;
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,.2);
+    background: #d8af00;
+
+}
+
+
+@media(max-width:900px){
+    .search{
+        width:90%;
+/*        height:18rem;*/
+        grid-template-columns: 2fr 4fr;
+    }
+}
+
+
+@media(max-width:500px){
+    .search{
+        width:90%;
+        margin:2rem auto;
+/*        height: 15rem;*/
+        /*               color:red;*/
+    }
+}
+
+.search__content{
+    padding:2rem;
+}
+
+
+@media(max-width:500px){
+    .search__content{
+        padding:1rem;
+    }
+}
+
+
+.search__img{
+    width:100%;
+    height:20rem;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+
+@media(max-width:900px){
+    .search__img{
+        height:18rem;
+    }
+}
+
+
+@media(max-width:500px){
+    .search__img{
+        height:15rem;
+    }
+}
+.search__title{
+    font-size: 2.5rem;
+    font-style : italic;
+    font-weight: normal;
+    margin-bottom : 1rem;
+    text-transform: uppercase;
+    color: #00309a;
+}
+
+@media(max-width:46em){
+    
+    .search__title{
+    font-size : 2rem;
+}
+    
+}
+
+.search__year{
+    font-size : 2rem;
+    margin-bottom : 1rem;
+}
+
+.search__plot{
+    font-size:  1.6rem;
+    color : #666;
+}
